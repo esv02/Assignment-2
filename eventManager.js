@@ -39,10 +39,6 @@ const validateAttendee = (attendee) => {
   if (typeof attendee.event_id !== "number" || attendee.event_id <= 0) {
     throw new TypeError("attendee.event_id must be a valid id");
   }
-  const events = findEventById(attendee.event_id);
-  if (!events) {
-    throw new Error("event not found");
-  }
 };
 
 const createEvent = async (db, event) => {
