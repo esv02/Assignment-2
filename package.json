@@ -1,7 +1,7 @@
 {
   "name": "assignment-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "This document describes the backend implementation delivered for QA review.\r The service provides course creation and student enrollment using an in-memory SQLite database.",
   "main": "eventManager.js",
   "scripts": {
     "test": "node --test"
@@ -13,5 +13,16 @@
   "dependencies": {
     "express": "^5.2.1",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esv02/Assignment-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esv02/Assignment-2/issues"
+  },
+  "homepage": "https://github.com/esv02/Assignment-2#readme"
 }
