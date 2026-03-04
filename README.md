@@ -1,7 +1,4 @@
-# Event Check-in and Attendance System (Engineering -> QA)
-
-This document describes the backend implementation delivered for QA review.
-The service provides course creation and student enrollment using an in-memory SQLite database.
+# Event Check-in and Attendance System
 
 ## What Was Built
 
@@ -91,3 +88,8 @@ Behavior:
 Error behavior:
 
 - Invalid input throws `Error(attendee not found)`
+
+# Installation
+- Clone the repository
+- Install dependecies with `npm install`
+- To test: run `npm test` in terminal
